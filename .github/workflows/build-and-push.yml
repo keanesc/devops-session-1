@@ -24,7 +24,7 @@ jobs:
 
 
       - name: Tag the Docker Image
-        run: docker tag python-app:latest ${{ secrets.DOCKERHUB_USERNAME }}/python-flask-demo:${{ github.sha }}
+        run: docker tag python-app:latest ${{ secrets.DOCKERHUB_USERNAME }}/devops-session-3:${{ github.sha }}
 
 
       - name: Push the Docker Image
