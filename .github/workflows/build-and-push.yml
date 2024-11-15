@@ -28,4 +28,4 @@ jobs:
 
 
       - name: Push the Docker Image
-        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/python-flask-demo:${GITHUB_SHA}
+        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/devops-session-3:${GITHUB_SHA}
